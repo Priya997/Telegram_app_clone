@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_new_group"
+        android:icon="@drawable/grp"
+        android:title="@string/nav_new_group"></item>
+
+        <item android:id="@+id/nav_secret"
+            android:icon="@drawable/lock"
+            android:title="@string/nav_secret"></item>
+
+        <item android:id="@+id/nav_channel"
+            android:icon="@drawable/horn"
+            android:title="@string/nav_channel"></item>
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/user"
+            android:title="@string/nav_contacts" />
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/book"
+            android:title="@string/nav_saved" />
+        <item
+            android:id="@+id/nav_calls"
+            android:icon="@drawable/call"
+            android:title="@string/nav_calls" />
+
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/addp"
+            android:title="@string/nav_invite" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings" />
+        <item android:id="@+id/nav_faq"
+            android:icon="@drawable/help"
+            android:title="@string/nav_faq"></item>
+
+    </group>
+</menu>
+
+
